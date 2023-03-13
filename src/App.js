@@ -2,7 +2,8 @@ import "./App.css";
 // import { SignupForm } from "./Components/SignupForm/SignupForm";
 // import { ColorPicker } from "./Components/ColorPicker";
 // import { Counter } from "./Components/Counter";
-import { Clock } from "./Components/Clock";
+// import { Clock } from "./Components/Clock";
+import { Counter2 } from "./Components/Counter2";
 
 const containerStyles = {
   maxWidth: 1170,
@@ -27,7 +28,8 @@ function App() {
       {/* <SignupForm /> */}
       {/* <ColorPicker options={colorPickerOptions} /> */}
       {/* <Counter /> */}
-      <Clock />
+      {/* <Clock /> */}
+      <Counter2 />
     </div>
   );
 }
