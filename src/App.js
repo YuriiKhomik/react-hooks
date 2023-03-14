@@ -3,7 +3,8 @@ import "./App.css";
 // import { ColorPicker } from "./Components/ColorPicker";
 // import { Counter } from "./Components/Counter";
 // import { Clock } from "./Components/Clock";
-import { Counter2 } from "./Components/Counter2";
+// import { Counter2 } from "./Components/Counter2";
+import { Friends } from "./Components/Friends";
 
 const containerStyles = {
   maxWidth: 1170,
@@ -29,7 +30,8 @@ function App() {
       {/* <ColorPicker options={colorPickerOptions} /> */}
       {/* <Counter /> */}
       {/* <Clock /> */}
-      <Counter2 />
+      {/* <Counter2 /> */}
+      <Friends />
     </div>
   );
 }
