@@ -1,4 +1,4 @@
-import { useState, useMemo, memo } from "react";
+import { useState, useMemo } from "react";
 
 const initalFriends = [
   "Kolby Thompson",

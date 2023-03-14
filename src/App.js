@@ -4,7 +4,8 @@ import "./App.css";
 // import { Counter } from "./Components/Counter";
 // import { Clock } from "./Components/Clock";
 // import { Counter2 } from "./Components/Counter2";
-import { Friends } from "./Components/Friends";
+// import { Friends } from "./Components/Friends";
+import { News } from "./Components/News/News";
 
 const containerStyles = {
   maxWidth: 1170,
@@ -31,7 +32,8 @@ function App() {
       {/* <Counter /> */}
       {/* <Clock /> */}
       {/* <Counter2 /> */}
-      <Friends />
+      {/* <Friends /> */}
+      <News />
     </div>
   );
 }
